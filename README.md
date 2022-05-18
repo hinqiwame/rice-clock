@@ -15,5 +15,5 @@ Delete the pre-built binary in the folder of project and run `build-binaries.sh`
 # To do:
 - Switching the color of text in real time (while the script is running)
 
-#Credits:
+# Credits:
 [Colorama](https://pypi.org/project/colorama/)
