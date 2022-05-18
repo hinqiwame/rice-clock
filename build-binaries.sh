@@ -1,4 +1,4 @@
-sudo apt install pyinstaller
+pip install pyinstaller
 pyinstaller -F --onefile rice-clock.py
 cd dist
 cp rice-clock ..
