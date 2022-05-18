@@ -1,6 +1,6 @@
 # rice-clock
 A rice-like clock for terminals. 
-![sceenshot](ghoulss.png)
+![screenshot](ghoulss.png)
 
 # Usage
 The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you built the command).
