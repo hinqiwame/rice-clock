@@ -3,6 +3,7 @@ A rice-like clock for terminals.
 ![screenshot](ghoulss.png)
 
 # Usage
+**Before running the script please make sure that you installed the `banner` package and requirements from `requirements.txt`!**
 The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you built the command).
 
 # Creating a command
