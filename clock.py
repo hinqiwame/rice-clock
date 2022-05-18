@@ -24,6 +24,7 @@ def clock(color):  # Defining a function
         system("banner " + datetime.now().strftime("%H:%M:%S"))  # Printing the time
         sleep(1)  # Making a delay in 1 second
 
+
 try:
     # Working with arguments
     if sys.argv[1] == "-r":
@@ -41,7 +42,7 @@ try:
     elif sys.argv[1] == "-w":
         clock(color=white)
     elif sys.argv[1] == "-h" or "--help":  # help argument
-        print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\n3 available:\n -r - red\n - g - green\n -b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
+        print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
 except:  # Except block for issues
     print("Error!")
     sleep(5)
