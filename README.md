@@ -1,6 +1,6 @@
 # rice-clock
 A rice-like clock for terminals. <br > 
-![screenshot](ghoulss.png)
+![Screenshot](ghoulss.gif)
 
 # Usage
 **Before running the script please make sure that have ran the `install-binaries.sh` script!**
