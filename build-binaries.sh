@@ -1,7 +1,7 @@
-pyinstaller -F --onefile rice-clock.py
+pyinstaller -F --onefile clock.py
 cd dist
-cp rice-clock ..
+cp clock ..
 cd ..
-rm -rf rice-clock.spec dist build
+rm -rf clock.spec dist build
 echo "Done!"
 echo "Now run create-command.sh."
