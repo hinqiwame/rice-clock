@@ -43,6 +43,11 @@ try:
         clock(color=white)
     elif sys.argv[1] == "-h" or "--help":  # help argument
         print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
+except IndexError:
+    print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
+except KeyboardInterrupt:
+    system("clear")
+    exit()
 except:  # Except block for issues
     print("Error!")
     sleep(5)
