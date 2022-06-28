@@ -3,7 +3,7 @@ A rice-like clock for terminals. <br >
 ![Screenshot](ghoulss.gif)
 
 # Usage
-**Before running the script please make sure that have ran the `install-binaries.sh` script!**
+**Before running the script please make sure that have ran the `install-depencies.sh` script!**
 The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you built the command).
 
 # Creating a command
