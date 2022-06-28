@@ -1,4 +1,4 @@
-sudo apt install banner
+sudo apt install sysvbanner
 pip install -r requirements.txt
 clear
 echo "Done!"
