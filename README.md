@@ -3,7 +3,7 @@ A rice-like clock for terminals. <br >
 ![Screenshot](ghoulss.gif)
 
 # Usage
-**Before running the script please make sure that have ran the `install-depencies.sh` script!**
+**Before running the script please make sure that have ran the `install-binaries.sh` script!**
 The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you built the command).
 
 # Creating a command
@@ -12,6 +12,10 @@ There are two ways to build a command for your linux system, using the binary fr
 Run `create-command.sh`. <br >
 2. **Creating your own** <br >
 Delete the pre-built binary in the folder of project and run `build-binaries.sh`, and then `create-command.sh`.
+
+# Combining with other terminal color libs
+For example, `rice-clock` works pretty good with [lolcat](https://github.com/busyloop/lolcat) (`rice-clock -w | lolcat`): <br >
+![Gradient](gradient.png)
 
 # Changelog
 ```
@@ -31,6 +35,16 @@ v1.1.0:
 	- Instruction
 	- Main script
 	- Installation scripts
+v1.1.1:
+- Added:
+	- New screenshot to README (gif now)
+	- Minor fixes to different parts of project
+	- New binary
+- Edited:
+	- README
+	- Except blocks (now they work better)
+	- 1 installation script (build-binaries.sh)
+	- Code documentation
 ```
 
 # To do:
@@ -39,3 +53,4 @@ v1.1.0:
 # Credits:
 [Colorama](https://pypi.org/project/colorama/)
 [Pyinstaller](https://pypi.org/project/pyinstaller/)
+
