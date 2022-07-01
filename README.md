@@ -1,6 +1,6 @@
 # rice-clock
 A rice-like clock for terminals. <br > 
-![Screenshot](img/ghoulss.gif)
+![Screenshot](ghoulss.gif)
 
 # Usage
 **Before running the script please make sure that have ran the `install-depencies.sh` script!**
@@ -15,7 +15,7 @@ Delete the pre-built binary in the folder of project and run `build-binaries.sh`
 
 # Combining with other terminal color libs
 For example, `rice-clock` works pretty good with [lolcat](https://github.com/busyloop/lolcat) (`rice-clock -w | lolcat`): <br >
-![Gradient](img/gradient.png)
+![Gradient](gradient.png)
 
 # Fonts preview
 [RAW](https://raw.githubusercontent.com/sepandhaghighi/art/master/FontList.ipynb)
