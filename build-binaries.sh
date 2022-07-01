@@ -1,3 +1,4 @@
+#!/bin/bash
 pyinstaller -F --clean clock.py
 cd dist
 cp clock ..
