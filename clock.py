@@ -1,5 +1,6 @@
 # Libraries
 from datetime import datetime  # Using this lib, we will get the current time
+from art import tprint  # Using this lib, we will print the time in ASCII signs
 from time import sleep  # Using this lib, we will create a delay in updating time
 from os import system  # Using this lib, we will clear the terminal after delay to show the current time
 from colorama import Fore  # Using this lib, we will change the color of the text in terminal
@@ -16,21 +17,25 @@ white = Fore.WHITE  # White color (why the fuck i need it)
 reset = Fore.RESET  # To return the base color 
 # I think there are more colors, but I added the most of it
 
+# Since script moved to new ASCII text lib, there are new opportunities for fonts now:
+# You can change the name of font to whitchever you want to use, for now it will be the default one
+# You can see preview of all fonts in README
+
+font = "banner"  # Default, you can change the name to switch the font
 
 def clock(color):  # Defining a function
     print(color)  # Changing current terminal font color to chosen color
     system("clear")  # Clearing the terminal
     while True:  # Creating a loop, that repeats itself forever (until it's stopped by user)
         system("clear")  # Clearing the terminal to update the time
-        system("banner " + datetime.now().strftime("%H:%M:%S"))  # Printing the time
+        tprint(datetime.now().strftime("%H:%M:%S"), font=font)  # Printing the time
         sleep(1)  # Making a delay in 1 second
-
 
 try:  # Opens try block to run the script options and work with issues below
     # Working with arguments
     if sys.argv[1] == "-r":  # Runs script with red color
         clock(color=red)
-    elif sys.argv == "-g":  # Runs script with green color
+    elif sys.argv[1] == "-g":  # Runs script with green color
         clock(color=green)
     elif sys.argv[1] == "-b":  # Runs script with blue color
         clock(color=blue)
@@ -53,4 +58,3 @@ except KeyboardInterrupt:  # If script was stopped by user
 except:  # Except block for issues
     print(f"{red}Error!{reset}")
     exit()
-
