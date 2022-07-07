@@ -2,16 +2,16 @@
 A rice-like clock for terminals. <br > 
 ![Screenshot](ghoulss.gif)
 
-# Usage
-**Before running the script please make sure that have ran the `install-depencies.sh` script!**
-The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you built the command).
+# Installation
+1. **Without use of source code (using binary from github)** <br >
+ - Run `install.sh`.
+2. **With use of source code (building your own)** <br >
+ - Navigate to `/src/`
+ - Run `install-depencies.sh`
+ - Run `build-binaries.sh`, and then `create-command.sh`.
 
-# Creating a command
-There are two ways to build a command for your linux system, using the binary from this repository or building you own. <br >
-1. **Using binary from GitHub** <br >
-Run `create-command.sh`. <br >
-2. **Creating your own** <br >
-Delete the pre-built binary in the folder of project and run `build-binaries.sh`, and then `create-command.sh`.
+# Usage (from source code)
+The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you have script installed in your system).
 
 # Combining with other terminal color libs
 For example, `rice-clock` works pretty good with [lolcat](https://github.com/busyloop/lolcat) (`rice-clock -w | lolcat`): <br >
@@ -54,6 +54,13 @@ v1.2.0
 - Edited:
 	- Switched to new library for ASCII text (https://pypi.org/project/art/)
 	- Installation scripts (no need to install banner package anymore)
+v1.2.1
+- Added:
+    - Install/remove script for installation/removal without source code
+- Edited:
+    - README
+    - Main script (help argument)
+    - Refactored whole project (it's more user-friendly now.)
 ```
 
 # To do:
@@ -66,3 +73,4 @@ v1.2.0
 
 # Thx for attention!:3
 ![<3](https://cdn-anime-images-api.hisoka17.repl.co/images/cuddle49.gif)
+
