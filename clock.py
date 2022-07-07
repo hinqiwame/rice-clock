@@ -21,7 +21,7 @@ reset = Fore.RESET  # To return the base color
 # You can change the name of font to whitchever you want to use, for now it will be the default one
 # You can see preview of all fonts in README
 
-font = "banner"  # Default, you can change the name to switch the font
+font = "smpoison"  # Default, you can change the name to switch the font
 
 def clock(color):  # Defining a function
     print(color)  # Changing current terminal font color to chosen color
@@ -48,9 +48,9 @@ try:  # Opens try block to run the script options and work with issues below
     elif sys.argv[1] == "-w":  # Runs script with cyan color
         clock(color=white)
     elif sys.argv[1] == "-h" or "--help":  # Help argument (Returns info on how to use the script)
-        print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
+        print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, that you want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white\n\nrice-clock homepage: https://github.com/meth1337/rice-clock\nReport bugs to https://github.com/meth1337/rice-clock/issues")
 except IndexError:  # If no arguments were entered (returns help argument value)
-    print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, tah You want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white")
+    print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, that you want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white\n\nrice-clock homepage: https://github.com/meth1337/rice-clock\nReport bugs to https://github.com/meth1337/rice-clock/issues")
 except KeyboardInterrupt:  # If script was stopped by user
     print(reset)  # Resets the font color
     system("clear")
