@@ -21,7 +21,7 @@ reset = Fore.RESET  # To return the base color
 # You can change the name of font to whitchever you want to use, for now it will be the default one
 # You can see preview of all fonts in README
 
-font = "smpoison"  # Default, you can change the name to switch the font
+font = "banner"  # Default, you can change the name to switch the font
 
 def clock(color):  # Defining a function
     print(color)  # Changing current terminal font color to chosen color
