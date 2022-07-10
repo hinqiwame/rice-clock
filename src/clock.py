@@ -45,7 +45,7 @@ try:  # Opens try block to run the script options and work with issues below
         clock(color=yellow)
     elif sys.argv[1] == "-c":  # Runs script with cyan color
         clock(color=cyan)
-    elif sys.argv[1] == "-w":  # Runs script with cyan color
+    elif sys.argv[1] == "-w":  # Runs script with white color
         clock(color=white)
     elif sys.argv[1] == "-h" or "--help":  # Help argument (Returns info on how to use the script)
         print("A rice-like clock for terminals.\nFor usage, enter the command rice-clock + color, that you want to use\nAvailable colors:\n - r - red\n - g - green\n - b - blue\n - p - pink\n - y - yellow\n - c - cyan\n - w - white\n\nrice-clock homepage: https://github.com/meth1337/rice-clock\nReport bugs to https://github.com/meth1337/rice-clock/issues")
@@ -54,7 +54,7 @@ except IndexError:  # If no arguments were entered (returns help argument value)
 except KeyboardInterrupt:  # If script was stopped by user
     print(reset)  # Resets the font color
     system("clear")
-    exit()
+    sys.exit()
 except:  # Except block for issues
     print(f"{red}Error!{reset}")
-    exit()
+    sys.exit()
