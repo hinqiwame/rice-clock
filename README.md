@@ -56,11 +56,18 @@ v1.2.0
 	- Installation scripts (no need to install banner package anymore)
 v1.2.1
 - Added:
-    - Install/remove script for installation/removal without source code
+    - Install script for installation without source code
 - Edited:
     - README
     - Main script (help argument)
-    - Refactored whole project (it's more user-friendly now.)
+	- Refactored whole project (it's more user-friendly now.)
+v1.2.2
+- Added:
+    - 12h AM/PM format to script (as an option to switch in the code)
+	- 1 more binary for AM/PM (if you want to install 12h format just rename rice-clock-12h to rice-clock)
+- Edited
+    - README
+	- Main script
 ```
 
 # To do:
@@ -73,4 +80,3 @@ v1.2.1
 
 # Thx for attention!:3
 ![<3](https://cdn-anime-images-api.hisoka17.repl.co/images/cuddle49.gif)
-
