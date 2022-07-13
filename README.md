@@ -17,7 +17,8 @@ The script can be used with entering `rice-clock -(color)`, for example `rice-cl
 
 # Combining with other terminal color libs
 For example, `rice-clock` works pretty good with [lolcat](https://github.com/busyloop/lolcat) (`rice-clock -w | lolcat`): <br >
-![Gradient](gradient.png)
+![Gradient](gradient.png) <br >
+**By the way, you can also see [wiki](https://github.com/meth1337/rice-clock/wiki) and find some useful information related to clock customization and other topics! :)**
 
 # Fonts preview
 [RAW](https://raw.githubusercontent.com/sepandhaghighi/art/master/FontList.ipynb)
