@@ -64,10 +64,10 @@ v1.2.1
 v1.2.2
 - Added:
     - 12h AM/PM format to script (as an option to switch in the code)
-	- 1 more binary for AM/PM (if you want to install 12h format just rename rice-clock-12h to rice-clock)
+    - 1 more binary for AM/PM (if you want to install 12h format just rename rice-clock-12h to rice-clock)
 - Edited
     - README
-	- Main script
+    - Main script
 ```
 
 # To do:
