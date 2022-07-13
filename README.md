@@ -3,15 +3,17 @@ A rice-like clock for terminals. <br >
 ![Screenshot](ghoulss.gif)
 
 # Installation
-1. **Without use of source code (using binary from github)** <br >
- - Run `install.sh`.
-2. **With use of source code (building your own)** <br >
+1. **Clone the repository** <br >
+ - `git clone https://github.com/meth1337/rice-clock && cd rice-clock` or manual cloning
+2. **Without use of source code (using binary from github)** <br >
+ - Run `bash install.sh`.
+3. **With use of source code (building your own)** <br >
  - Navigate to `/src/`
- - Run `install-depencies.sh`
- - Run `build-binaries.sh`, and then `create-command.sh`.
+ - Run `bash install-depencies.sh`
+ - Run `bash build-binaries.sh`, and then `bash create-command.sh`.
 
-# Usage (from source code)
-The script can be used with entering `python rice-clock.py -(color)` or `rice-clock -(color)` (if you have script installed in your system).
+# Usage
+The script can be used with entering `rice-clock -(color)`, for example `rice-clock -r` for red color.
 
 # Combining with other terminal color libs
 For example, `rice-clock` works pretty good with [lolcat](https://github.com/busyloop/lolcat) (`rice-clock -w | lolcat`): <br >
@@ -68,6 +70,14 @@ v1.2.2
 - Edited
     - README
     - Main script
+v1.2.3 (maybe the last release unless something needs to be fixed)
+- Added:
+    - Bug report and feature request templates
+    - License (the project is now licensed under GNU GPL V3)
+- Edited:
+    - Installation scripts so they now work perfectly
+    - README
+    - Fixed different parts of projects.
 ```
 
 # To do:
