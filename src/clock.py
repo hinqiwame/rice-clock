@@ -82,8 +82,7 @@ except IndexError:  # If no arguments were entered (returns help argument value)
 except KeyboardInterrupt:  # If script was stopped by user
     print(reset)  # Resets the font color
     system("clear")
-    sys.exit(0)
-except:  # Except block for issues
+except Exception:  # Except block for issues
     print(f"{red}Error!{reset}")
     sys.exit(0)
     
