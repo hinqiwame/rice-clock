@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Compiling the file..."
-pyinstaller -F --clean clock.py
+pyinstaller -F --clean --bootloader-ignore-signals clock.py
 clear
 echo "Removing dist/var files..."
 cd dist
